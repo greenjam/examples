@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.7
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+   compile 'org.apache.solr:solr-core:4.4.0'
+   compile 'javax.servlet:servlet-api:2.5'
+   compile 'commons-logging:commons-logging:1.1.3'
+
+}

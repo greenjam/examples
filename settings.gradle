@@ -1,0 +1,3 @@
+include ('hello-world-api','hello-world-application')
+include 'solr'
+
